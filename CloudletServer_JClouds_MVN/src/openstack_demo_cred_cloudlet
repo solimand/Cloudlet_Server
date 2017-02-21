@@ -1,0 +1,6 @@
+{
+    "account": "admin",
+    "password": "nomoresecrete",
+    "tenant": "demo",
+    "server_addr": "localhost"
+}
