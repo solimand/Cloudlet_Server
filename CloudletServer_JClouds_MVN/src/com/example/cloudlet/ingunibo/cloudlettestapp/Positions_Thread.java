@@ -81,8 +81,10 @@ public class Positions_Thread extends Thread {
 	}
 	
 	/*TEST PRINT POSITIONS*/
+	//TODO better...
     private String printPositions(){
         String result="";
+        result+="Rows --> " + positionsReceived.length;
         for (int row=0;row<positionsReceived.length;row++){
             for (int col=0;col<2;col++){
             	result=result+positionsReceived[row][col]+"\n";
